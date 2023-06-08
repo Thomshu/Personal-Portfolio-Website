@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <title>Thomson Ly - Personal Portfolio</title>
+    <meta name="description" content="CSS Applied Computing Student at the University of Windsor">
+    <meta name="keywords" content="COMP3340 Assignment 1 HTML personal portfolio website">
+    <link rel="stylesheet" href="assignment1.css"
+</head>
+<body>
+    <header>
+        <h1 id="headerName">Thomson Ly</h1>
+        <h3 id="briefIntro">University of Windsor Biochemistry and Computer Science Student</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#aboutmeSection">About me</a></li>
+            <li><a href="#projectsSection">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="aboutmeSection">
+        <h2 id="aboutme">About Me</h2>
+        <div id="PicInfo">
+            <p> <img src="Media/cropped_prof_pic.png" alt="Picture of Thomson Ly" width="250" height="250"></p>
+            <h4>Contact Information: lyt@uwindsor.ca | 519-988-9763</h4>
+        </div>
+
+        <h3 id="education">Education and Background</h3>
+        <p>Hello! My name is Thomson Ly, and I am a 24 year old student at the University of Windsor (UofW). Currently, I am in my fourth
+            semester of the accelerated Bachelor's in Computer Science - Applied Computing for Ugrads program. Previously I have completed
+            my degree in Honours Biochemistry at this same University in 2020. I have been in many exciting organizations at this University,
+            notably as Undergraduate Research Assistant for the Trant Lab, a Senior Medic for the UofW Student Medical Response 
+            Service Team and the secretary for the Undergraduate Chemistry Club.
+        </p>
+
+        <h3 id="skills">Skills</h3>
+        <ul>
+            <li>Programming: C, C++, Python, Java, HTML/CSS, SQL, Android Studio</li>
+            <li>Strong teamwork and communication skills through work/volunteer experience</li>
+            <li>Excellent leadership, problem solving skills, and organizational skills</li>
+            <li>Quick learner, great listener, and adaptable to stressful environments</li>
+        </ul>
+    </section>
+
+    <section id="projectsSection">
+        <h2 id="projects">Projects</h2>
+
+        <h3 id="MLProject">Machine Learning Algorithms in Predicting Default of Credit Card Clients</h3>
+        <h4 id="MLattachments">Attachments</h4>
+        <ul>
+            <li>
+                <a href="Media/MLArticle.pdf">Article</a>
+            </li>
+            <li>
+                <a href="Media/MLResults.pdf">Code and Results</a>
+            </li>
+        </ul>
+        <p>
+            Through Python's scikit-learn library, me and my colleagues, Rene Schuller, Katarina Simanic, Sukhpreet Singh, explored three 
+            supervised ML algorithms: Decision Tree, KNN (k-Nearest Neighbours), and SVM (Support Vector Machine).
+            Optimal hyperparameters of such algorithms were identified and tuned in order to create the optimal models used in 
+            performing binary classification for the defaulting of credit card clients. A bar graph summarizing the results can be seen below.
+        </p>
+        <p id="BarGraph"><img src="Media/MLBarGraph.png" alt="MLBarGraph" width="650" height="450"></p>
+        
+        <h3 id="SmartLink">"SmartLink" Android Application (Unofficial) </h3>
+        <p>
+            Along with my colleagues Tayveon Holmes, Aleksandar Milosevski, and Aleksandar Simonovski, we created an Android Application 
+            for students to organize and manage their academic responsibilites through Java and Android Studio. It includes the following 
+            features: Underlying database functionality, new user creation, login/logout, course list creation, to-do list creation, GPA 
+            calculator. Sample pictures are shown below.
+        </p>
+        <p><img src="Media/AndroidImg.png" alt="AndroidImg1" width="700" height="550"></p>
+
+        <h3 id="database">Ontario Covid-19 Database</h3>
+        <p>
+            With my colleagues Katarina Simanic and Sukhpreet Singh, we designed a relational COVID-19 databse management system with 
+            complete ER diagrams and database schemas shown below. We cleaned over 1 000 000 raw provincial COVID-19 data from the 
+            government website utilizing Excel. Afterward, we implemented the MYSQL Ontario COVID-19 database using the compeleted ER diagrams, 
+            schema and cleaned data.
+        </p>
+        <div id="DBImages">
+            <p><img src="Media/DBERDiagram.png" alt="DBERDiagram" width="900" height="750"></p>
+            <p><img src="Media/DBSchema.png" alt="DBSchema" width="850" height="1000"></p>
+        </div>
+    </section>
+
+    <nav>
+        <li><a href="#headerName">Return to Top</a></li>
+    </nav>
+
+</body>
+</html>
