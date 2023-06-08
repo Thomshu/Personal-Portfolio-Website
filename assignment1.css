@@ -12,18 +12,23 @@ header{
     text-align: center;
 }
 
-nav{
-    padding: 0.15%;
+.navigation{
+    padding: 0.1%;
     list-style-type: none;
     background-color: rgb(48, 47, 47);
 }
 
 nav ul li{
-    margin-bottom: 2%;
+    margin: 1%;
 }
 
 #aboutmeSection{
     padding-left: 1%;
+}
+
+#PicInfo{
+    text-align: center;
+    padding-right: 1%;
 }
 
 #projectsSection{
@@ -34,7 +39,7 @@ h2{
     font-size: 1.7em;
 }
 
-h3{
+body section h3{
     text-decoration: underline;
 }
 
@@ -43,9 +48,6 @@ nav ul li a{
     color: ghostwhite;
 }
 
-#PicInfo{
-    text-align: center;
-}
 
 nav li{
     font-size: 1.5em;
